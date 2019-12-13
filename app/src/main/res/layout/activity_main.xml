@@ -5,8 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    tools:context=".MainActivity"
+    android:background="#000000">
+    <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_weight="1"
@@ -16,17 +18,12 @@
         android:layout_height="wrap_content"
         map:cameraTargetLat="37.541"
         map:cameraTargetLng="126.986"
-        map:cameraZoom="15" />
+        map:cameraZoom="15" /> -->
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <Button
-            android:text="권한"
-            android:id="@+id/getLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
         <Button
             android:text="등록"
             android:id="@+id/alert"
